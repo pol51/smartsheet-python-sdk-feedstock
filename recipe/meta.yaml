@@ -1,5 +1,5 @@
 {% set name = "smartsheet-python-sdk" %}
-{% set version = "3.0.2" %}
+{% set version = "3.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/smartsheet-python-sdk-{{ version }}.tar.gz
-  sha256: 1f417bef80d088c2133e266a3e33a3636cd3fc1d4e983e4aa6a542b2cec26c8d
+  sha256: 55265645c164fda177ff30d1c6d4eab43d496d5eccb292c33e8c806b522d3f48
 
 build:
   noarch: python
